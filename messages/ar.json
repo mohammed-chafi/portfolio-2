@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "محمد شافي — مهندس برمجيات وذكاء اصطناعي | طنجة، المغرب",
+    "title": "محمد شافي — مهندس برمجيات وذكاء اصطناعي",
     "description": "مهندس برمجيات متخصص في التطوير الشامل، الذكاء الاصطناعي، هندسة البيانات، وإنترنت الأشياء الصناعي. متاح للمشاريع في طنجة وعن بعد.",
     "ogAlt": "محمد شافي — مهندس برمجيات وذكاء اصطناعي، طنجة، المغرب"
   },
@@ -91,14 +91,7 @@
       {
         "title": "الذكاء الاصطناعي وتعلم الآلة",
         "description": "نماذج تعلم آلي وعميق لحل مشاكل حقيقية، من البيانات الخام إلى تنبؤ قابل للاستعمال.",
-        "tags": [
-          "Python",
-          "Scikit-learn",
-          "TensorFlow",
-          "Keras",
-          "BERT",
-          "NLP"
-        ]
+        "tags": ["Python", "Scikit-learn", "TensorFlow", "Keras", "BERT", "NLP"]
       },
       {
         "title": "هندسة البيانات وذكاء الأعمال",
@@ -116,12 +109,7 @@
       {
         "title": "إنترنت الأشياء والأنظمة الصناعية",
         "description": "ربط ومراقبة المعدات في الوقت الفعلي، من المستشعر إلى لوحة القيادة.",
-        "tags": [
-          "ESP32",
-          "MQTT",
-          "Modbus TCP",
-          "الصيانة التنبؤية"
-        ]
+        "tags": ["ESP32", "MQTT", "Modbus TCP", "الصيانة التنبؤية"]
       },
       {
         "title": "هندسة البرمجيات وأفضل الممارسات",
@@ -138,15 +126,7 @@
       {
         "title": "DevOps والنشر",
         "description": "الحاويات والنشر الإنتاجي والمراقبة، وصولاً إلى التسليم على الخادم.",
-        "tags": [
-          "Docker",
-          "Git",
-          "Linux",
-          "Nginx",
-          "IIS",
-          "VPS Cloud",
-          "CI/CD"
-        ]
+        "tags": ["Docker", "Git", "Linux", "Nginx", "IIS", "VPS Cloud", "CI/CD"]
       }
     ]
   },
@@ -218,14 +198,7 @@
           "تطوير خدمة الويب ASP.NET لتسجيل عمليات الوزن واستعراضها",
           "توليد وطباعة تذاكر الوزن بشكل آلي"
         ],
-        "stack": [
-          "C#",
-          "WPF",
-          "ASP.NET",
-          "Modbus TCP",
-          "SQL Server",
-          "‎.NET"
-        ]
+        "stack": ["C#", "WPF", "ASP.NET", "Modbus TCP", "SQL Server", "‎.NET"]
       },
       {
         "period": "شتنبر 2023 – يونيو 2025",
@@ -284,13 +257,7 @@
         "name": "ITALBOX",
         "context": "متجر إلكتروني في الإنتاج",
         "description": "متجر إلكتروني متكامل: كتالوج، بحث فوري، سلة وإتمام الطلب، منشور عبر الحاويات وفي الخدمة منذ 2024.",
-        "tags": [
-          "Spring Boot",
-          "Next.js",
-          "PostgreSQL",
-          "Algolia",
-          "Docker"
-        ],
+        "tags": ["Spring Boot", "Next.js", "PostgreSQL", "Algolia", "Docker"],
         "url": "https://italbox.ma",
         "urlLabel": "italbox.ma"
       },
@@ -298,45 +265,25 @@
         "name": "منصة الصيانة التنبؤية",
         "context": "MTS — ذكاء اصطناعي وإنترنت أشياء صناعي",
         "description": "ترفع المستشعرات حالة الآلات باستمرار؛ ويرصد نموذج تعلم آلي الانحراف قبل وقوع العطل ويطلق التنبيه على لوحة القيادة.",
-        "tags": [
-          "ESP32",
-          "MQTT",
-          "Python",
-          "Scikit-learn",
-          "React"
-        ]
+        "tags": ["ESP32", "MQTT", "Python", "Scikit-learn", "React"]
       },
       {
         "name": "تطبيق الوزن الصناعي",
         "context": "SENSGRP — تطبيق مكتبي ووحدة تحكم",
         "description": "محطة وزن مرتبطة بوحدة التحكم عبر Modbus TCP: قراءة الوزن في الوقت الفعلي، التسجيل عبر خدمة الويب، وطباعة التذكرة.",
-        "tags": [
-          "WPF",
-          "C#",
-          "Modbus TCP",
-          "ASP.NET"
-        ]
+        "tags": ["WPF", "C#", "Modbus TCP", "ASP.NET"]
       },
       {
         "name": "Training Track System",
         "context": "TE Connectivity — التكوين والمطابقة",
         "description": "تتبع تكوينات وشهادات الموظفين: تواريخ الانتهاء والتأهيلات وحالة المطابقة على لوحة قيادة واحدة.",
-        "tags": [
-          "ASP.NET Core",
-          "Angular",
-          "Clean Architecture",
-          "SQL Server"
-        ]
+        "tags": ["ASP.NET Core", "Angular", "Clean Architecture", "SQL Server"]
       },
       {
         "name": "MTSSRL",
         "context": "موقع تعريفي في الإنتاج",
         "description": "موقع تعريفي احترافي يقدم MTSSRL، شركة متخصصة في تصميم وتصنيع الآلات والحلول الصناعية. يبرز الموقع خبرتها وإنجازاتها وخدماتها ودرايتها من خلال واجهة عصرية وواضحة ومتجاوبة.",
-        "tags": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ],
+        "tags": ["HTML", "CSS", "JavaScript"],
         "url": "https://mtssrl.ma",
         "urlLabel": "mtssrl.ma"
       }
@@ -351,72 +298,37 @@
       {
         "title": "تطوير تطبيقات مخصصة",
         "description": "تصميم وتطوير تطبيقات ويب وسطح مكتب مبنية على مساراتكم المهنية الحقيقية، لا على قالب جاهز.",
-        "tags": [
-          "ASP.NET Core",
-          "Spring Boot",
-          "Next.js",
-          "Angular"
-        ]
+        "tags": ["ASP.NET Core", "Spring Boot", "Next.js", "Angular"]
       },
       {
         "title": "حلول الذكاء الاصطناعي وتعلم الآلة",
         "description": "دمج نماذج الذكاء الاصطناعي حيث توفر وقتاً حقيقياً: الأتمتة، تصنيف الوثائق، والتنبؤ.",
-        "tags": [
-          "Python",
-          "Scikit-learn",
-          "TensorFlow",
-          "NLP"
-        ]
+        "tags": ["Python", "Scikit-learn", "TensorFlow", "NLP"]
       },
       {
         "title": "هندسة البيانات وذكاء الأعمال",
         "description": "بيانات متفرقة تُجمع في خطوط موثوقة، ثم تُقدَّم في لوحات قيادة يمكن الاعتماد عليها في القرار.",
-        "tags": [
-          "Apache Spark",
-          "Kafka",
-          "Airflow",
-          "Power BI"
-        ]
+        "tags": ["Apache Spark", "Kafka", "Airflow", "Power BI"]
       },
       {
         "title": "إنترنت الأشياء والأتمتة الصناعية",
         "description": "ربط معداتكم ومراقبتها في الوقت الفعلي، من المستشعر على الآلة إلى الشاشة داخل الورشة.",
-        "tags": [
-          "ESP32",
-          "MQTT",
-          "Modbus TCP",
-          "Node.js"
-        ]
+        "tags": ["ESP32", "MQTT", "Modbus TCP", "Node.js"]
       },
       {
         "title": "الصيانة التنبؤية والمراقبة",
         "description": "توقع الأعطال بدل تحمّلها: رصد الانحراف، تنبيهات مبكرة، وتقليل توقف الإنتاج.",
-        "tags": [
-          "Machine Learning",
-          "Python",
-          "IoT",
-          "Dashboards"
-        ]
+        "tags": ["Machine Learning", "Python", "IoT", "Dashboards"]
       },
       {
         "title": "الرقمنة وتحويل العمليات",
         "description": "تحويل المساطر الورقية وجداول Excel إلى أدوات ويب مركزية قابلة للتتبع ومتاحة لكل الفريق.",
-        "tags": [
-          "Next.js",
-          "REST API",
-          "PostgreSQL",
-          "SQL Server"
-        ]
+        "tags": ["Next.js", "REST API", "PostgreSQL", "SQL Server"]
       },
       {
         "title": "الهندسة المعمارية والاستشارات التقنية",
         "description": "تدقيق الموجود وتصميم هياكل قوية وقابلة للتطور، مع خارطة طريق واقعية للانتقال.",
-        "tags": [
-          "Clean Architecture",
-          "Microservices",
-          "Docker",
-          "CI/CD"
-        ]
+        "tags": ["Clean Architecture", "Microservices", "Docker", "CI/CD"]
       }
     ],
     "ctaPanel": {

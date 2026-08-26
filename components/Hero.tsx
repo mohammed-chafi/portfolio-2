@@ -33,6 +33,7 @@ export function Hero() {
             <span className="text-ink-2">{t("role")}</span>
           </p>
           <p className="label-caps flex items-center gap-2 text-ink-3">
+            <span className="numeric whitespace-nowrap">{t("location")}</span>
             <span
               aria-hidden
               className="block size-1.5 shrink-0 rounded-full bg-accent"
