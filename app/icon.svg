@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!--
+    The site's signature compressed to 16px: a measurement rule with its two
+    endpoints marked. Letters blur at favicon size; this stays a distinct shape.
+  -->
+  <rect width="32" height="32" rx="7" fill="#1D4ED8"/>
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="square">
+    <path d="M7 19h18" opacity="0.9"/>
+    <path d="M7 11v8"/>
+    <path d="M16 15v4" opacity="0.6"/>
+    <path d="M25 11v8"/>
+  </g>
+</svg>

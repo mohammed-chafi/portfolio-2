@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --header-h: 64px;
+  }
+
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Anchors must clear the sticky header. */
+    scroll-padding-top: calc(var(--header-h) + 24px);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  [lang='ar'] body {
+    @apply font-arabic;
+  }
+
+  /* One visible focus treatment across the whole site. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-canvas rounded-[4px];
+  }
+
+  ::selection {
+    background-color: #1d4ed8;
+    color: #ffffff;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-delay: 0ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-container px-6 lg:px-10;
+  }
+
+  .section-pad {
+    @apply py-14 lg:py-24;
+  }
+
+  /*
+   * Small tracked caps used for eyebrows, scale ticks and field labels.
+   * Arabic script must never be letter-spaced or uppercased — it breaks the
+   * joining of the glyphs — so the treatment is neutralised on the ar locale.
+   */
+  .label-caps {
+    @apply text-tick font-semibold uppercase tracking-[0.09em];
+  }
+
+  [lang='ar'] .label-caps,
+  [lang='ar'] .eyebrow {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.75rem;
+  }
+
+  /* Section eyebrow: reads like an annotation on an engineering sheet. */
+  .eyebrow {
+    @apply flex items-center gap-2.5 text-tick font-semibold uppercase tracking-[0.09em] text-accent;
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply block h-px w-6 shrink-0 bg-accent;
+  }
+
+  /*
+   * Shared card treatment: a 2px lift, a shallow shadow, and a hairline that
+   * draws across the top edge in accent — the same tick vocabulary as the hero
+   * scale, used here as the hover signal. Transform and opacity only.
+   */
+  .card-lift {
+    @apply relative overflow-hidden rounded-card border border-line bg-surface shadow-sm;
+    @apply transition-[transform,box-shadow,background-color] duration-card ease-out;
+    @apply hover:-translate-y-0.5 hover:shadow-md;
+  }
+
+  .card-lift::after {
+    content: '';
+    @apply pointer-events-none absolute inset-x-0 top-0 h-px origin-left scale-x-0 bg-accent;
+    @apply transition-transform duration-card ease-out;
+  }
+
+  [dir='rtl'] .card-lift::after {
+    transform-origin: right;
+  }
+
+  .card-lift:hover::after,
+  .card-lift:focus-within::after {
+    @apply scale-x-100;
+  }
+
+  .tech-tag {
+    @apply inline-flex items-center rounded-[6px] border border-line bg-wash px-2 py-1 text-[11px] font-medium leading-none text-ink-2;
+    font-feature-settings: 'tnum' 1;
+    /* Tech names are Latin runs; let each tag pick its own direction so tokens
+       like '.NET' do not get reordered inside the RTL locale. */
+    unicode-bidi: plaintext;
+  }
+
+  /* Tabular figures for dates, phone numbers and readouts. */
+  .numeric {
+    font-feature-settings: 'tnum' 1, 'lnum' 1;
+  }
+}

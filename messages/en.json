@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "title": "Mohammed Chafi — Software & AI Engineer | Tangier, Morocco",
+    "description": "Software engineer specialized in full-stack development, AI, data engineering and industrial IoT. Available for projects in Tangier and remotely.",
+    "ogAlt": "Mohammed Chafi — Software & AI Engineer, Tangier, Morocco"
+  },
+  "nav": {
+    "about": "About",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "projects": "Projects",
+    "services": "Services",
+    "education": "Education",
+    "contact": "Contact",
+    "book": "Book a call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to main content",
+    "languageLabel": "Change language",
+    "primaryNav": "Main navigation"
+  },
+  "hero": {
+    "name": "Mohammed Chafi",
+    "role": "Software & AI Engineer",
+    "location": "Tangier, Morocco",
+    "availability": "Available for projects and collaborations",
+    "headline": "I design and build reliable, intelligent, connected software solutions — from the web to the industrial floor.",
+    "subline": "Full-stack web development expert, specialized in AI, Data Engineering and industrial IoT solutions.",
+    "ctaProjects": "See my projects",
+    "ctaBook": "Book a call",
+    "rangeLabel": "Working range",
+    "range": {
+      "web": "Web",
+      "ai": "AI",
+      "data": "Data",
+      "iot": "IoT",
+      "industry": "Industry"
+    },
+    "availabilityShort": "Available"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "From software development to the production floor",
+    "body": "A Computer Science and Networks Engineer from EMSI Tangier, I build high-performing software solutions at the intersection of development, artificial intelligence, and data engineering. My background spans full-stack development (.NET/Angular, Java/Spring Boot, Next.js/React), applied AI (Machine Learning, NLP), data engineering (ETL, Big Data, BI), and industrial environments (IoT, predictive maintenance, automation). Rigorous, autonomous, and solution-driven, I work with companies as well as SMEs and industrial clients on their specific needs.",
+    "qualitiesLabel": "Strengths",
+    "qualities": ["Versatile", "Adaptability", "Rigor", "Interpersonal skills"],
+    "factsLabel": "At a glance",
+    "facts": [
+      {
+        "label": "Based in",
+        "value": "Tangier, Morocco"
+      },
+      {
+        "label": "Education",
+        "value": "Engineer — EMSI Tangier"
+      },
+      {
+        "label": "Engagements",
+        "value": "On-site and remote"
+      },
+      {
+        "label": "Languages",
+        "value": "French, English, Arabic"
+      }
+    ]
+  },
+  "expertise": {
+    "eyebrow": "Areas of expertise",
+    "title": "Six domains, one engineering standard",
+    "intro": "Each domain maps to systems actually delivered, in-house or as a freelancer.",
+    "items": [
+      {
+        "title": "Web & Application Development",
+        "description": "Robust web apps and modern interfaces, built to hold up in production.",
+        "tags": [
+          "ASP.NET Core",
+          "Angular",
+          "Spring Boot",
+          "Next.js",
+          "React",
+          "C#",
+          "Java",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "AI & Machine Learning",
+        "description": "ML/DL models applied to real business problems, from raw data to usable prediction.",
+        "tags": ["Python", "Scikit-learn", "TensorFlow", "Keras", "BERT", "NLP"]
+      },
+      {
+        "title": "Data Engineering & BI",
+        "description": "Data pipelines and decision-making platforms that make the numbers readable and trustworthy.",
+        "tags": [
+          "Apache Spark",
+          "Kafka",
+          "Airflow",
+          "Hive",
+          "HDFS",
+          "Power BI",
+          "ETL/ELT"
+        ]
+      },
+      {
+        "title": "IoT & Industrial Systems",
+        "description": "Real-time equipment connectivity and monitoring, from the sensor to the dashboard.",
+        "tags": ["ESP32", "MQTT", "Modbus TCP", "Predictive maintenance"]
+      },
+      {
+        "title": "Software Architecture & Best Practices",
+        "description": "Modular, secure, maintainable architectures — documented and testable.",
+        "tags": [
+          "Clean Architecture",
+          "Microservices",
+          "REST API",
+          "JWT/RBAC",
+          "UML",
+          "Agile/Scrum"
+        ]
+      },
+      {
+        "title": "DevOps & Deployment",
+        "description": "Containerization, production deployment and monitoring, through to delivery on the server.",
+        "tags": ["Docker", "Git", "Linux", "Nginx", "IIS", "Cloud VPS", "CI/CD"]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Track record",
+    "title": "Professional experience",
+    "intro": "Five engagements, from internal business tools to a live e-commerce platform.",
+    "expand": "See details",
+    "collapse": "Hide details",
+    "responsibilitiesLabel": "Responsibilities",
+    "stackLabel": "Tech stack",
+    "items": [
+      {
+        "period": "Feb. 2026 – Jul. 2026",
+        "role": ".NET & Angular Developer",
+        "contract": "Final-year internship",
+        "org": "TE Connectivity",
+        "location": "Tangier",
+        "summary": "Training and certification management system: an ASP.NET Core API built on Clean Architecture with an Angular dashboard for compliance tracking.",
+        "responsibilities": [
+          "Designed and built an ASP.NET Core API structured on Clean Architecture",
+          "Developed the Angular dashboard for training and certification tracking",
+          "Modelled training paths, qualifications and their expiry dates",
+          "Implemented authentication and role management (JWT/RBAC)"
+        ],
+        "stack": [
+          "ASP.NET Core",
+          "C#",
+          "Angular",
+          "TypeScript",
+          "Clean Architecture",
+          "SQL Server",
+          "JWT/RBAC"
+        ]
+      },
+      {
+        "period": "Jul. 2024 – Sep. 2025",
+        "role": "Software & AI Engineer",
+        "contract": "Internship",
+        "org": "MTS",
+        "location": "Tangier",
+        "summary": "Predictive maintenance platform: IoT acquisition of machine data, a failure-prediction model, and a real-time monitoring dashboard.",
+        "responsibilities": [
+          "Collected machine data through ESP32 sensors, transported over MQTT",
+          "Built the data pipeline and prepared the training datasets",
+          "Trained and evaluated a Machine Learning failure-prediction model",
+          "Developed the React dashboard for real-time monitoring and alerting"
+        ],
+        "stack": [
+          "Python",
+          "Scikit-learn",
+          "ESP32",
+          "MQTT",
+          "React",
+          "Machine Learning",
+          "IoT"
+        ]
+      },
+      {
+        "period": "Jan. 2024 – Oct. 2025",
+        "role": ".NET Developer",
+        "contract": "Freelance",
+        "org": "SENSGRP",
+        "location": "Kenitra",
+        "summary": "WPF desktop application for industrial weighing, talking to a PLC over Modbus, backed by an ASP.NET web service and ticket printing.",
+        "responsibilities": [
+          "Built the WPF desktop application for industrial weighing",
+          "Implemented real-time communication with the weighing PLC over Modbus TCP",
+          "Developed the ASP.NET web service recording and querying weighings",
+          "Automated generation and printing of weighing tickets"
+        ],
+        "stack": ["C#", "WPF", "ASP.NET", "Modbus TCP", "SQL Server", ".NET"]
+      },
+      {
+        "period": "Sep. 2023 – Jun. 2025",
+        "role": "Java & Next.js Developer",
+        "contract": "Freelance",
+        "org": "ITALBOX",
+        "location": "Tangier",
+        "summary": "Full e-commerce site shipped to production at italbox.ma: Spring Boot back end, Next.js front end, Algolia search and containerized deployment.",
+        "responsibilities": [
+          "Developed the Spring Boot back end and the catalogue REST API",
+          "Built the Next.js storefront and the checkout flow",
+          "Integrated Algolia product search and modelled the PostgreSQL schema",
+          "Containerized with Docker and deployed to production"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Next.js",
+          "React",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ]
+      },
+      {
+        "period": "May 2022 – Aug. 2022",
+        "role": "Java & Angular Developer",
+        "contract": "Final-year internship",
+        "org": "Province of Berkane",
+        "location": "Berkane",
+        "summary": "Intern management application covering applications, placements and evaluations, built with Spring Boot and Angular.",
+        "responsibilities": [
+          "Developed the Spring Boot API for handling applications",
+          "Built the Angular interface for assigning interns to departments",
+          "Implemented the end-of-internship evaluation and follow-up module",
+          "Modelled the database schema and user roles"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "TypeScript",
+          "MySQL",
+          "REST API"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected projects",
+    "title": "What these systems actually do",
+    "intro": "Four delivered systems, from a live storefront to industrial equipment monitoring.",
+    "visitLabel": "Visit the site",
+    "items": [
+      {
+        "name": "Training Track System",
+        "context": "TE Connectivity — Training & compliance",
+        "description": "Tracking of staff training and certifications: expiry dates, qualifications and compliance status on a single dashboard.",
+        "tags": ["ASP.NET Core", "Angular", "Clean Architecture", "SQL Server"]
+      },
+      {
+        "name": "ITALBOX",
+        "context": "E-commerce site in production",
+        "description": "A complete online store: catalogue, instant search, cart and checkout, deployed in containers and live since 2024.",
+        "tags": ["Spring Boot", "Next.js", "PostgreSQL", "Algolia", "Docker"],
+        "url": "https://italbox.ma",
+        "urlLabel": "italbox.ma"
+      },
+
+      {
+        "name": "MTSSRL",
+        "context": "Showcase site in production",
+        "description": "A professional showcase website for MTSSRL, a company specialized in the design and manufacturing of industrial machines and solutions. The site highlights its expertise, achievements, services, and know-how through a modern, clear, and responsive interface.",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "url": "https://mtssrl.ma",
+        "urlLabel": "mtssrl.ma"
+      },
+      {
+        "name": "Predictive maintenance platform",
+        "context": "MTS — AI & industrial IoT",
+        "description": "Sensors report machine condition continuously; a Machine Learning model flags the drift before the breakdown and raises the alert on the dashboard.",
+        "tags": ["ESP32", "MQTT", "Python", "Scikit-learn", "React"]
+      },
+      {
+        "name": "Industrial weighing application",
+        "context": "SENSGRP — Desktop & PLC",
+        "description": "A weighing station wired to the PLC over Modbus TCP: live weight readout, recording through the web service, and ticket printing.",
+        "tags": ["WPF", "C#", "Modbus TCP", "ASP.NET"]
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What I can take on for your company",
+    "intro": "Freelance and consulting engagements, on-site in Tangier and across Morocco, or remote.",
+    "cta": "Discuss this",
+    "items": [
+      {
+        "title": "Custom Application Development",
+        "description": "Web and desktop applications shaped around your actual business processes, not a generic template.",
+        "tags": ["ASP.NET Core", "Spring Boot", "Next.js", "Angular"]
+      },
+      {
+        "title": "Applied AI & Machine Learning",
+        "description": "AI models placed where they save real time: automation, document classification, prediction.",
+        "tags": ["Python", "Scikit-learn", "TensorFlow", "NLP"]
+      },
+      {
+        "title": "Data Engineering & BI",
+        "description": "Scattered data pulled into reliable pipelines, then returned as dashboards a decision can rest on.",
+        "tags": ["Apache Spark", "Kafka", "Airflow", "Power BI"]
+      },
+      {
+        "title": "IoT & Industrial Automation",
+        "description": "Equipment connectivity and real-time monitoring, from the sensor on the machine to the screen on the floor.",
+        "tags": ["ESP32", "MQTT", "Modbus TCP", "Node.js"]
+      },
+      {
+        "title": "Predictive Maintenance & Monitoring",
+        "description": "Anticipate failures instead of absorbing them: drift detection, early alerts, less downtime.",
+        "tags": ["Machine Learning", "Python", "IoT", "Dashboards"]
+      },
+      {
+        "title": "Business Process Digitalization",
+        "description": "Paper and spreadsheet procedures turned into centralized web tools that are traceable and available to the whole team.",
+        "tags": ["Next.js", "REST API", "PostgreSQL", "SQL Server"]
+      },
+      {
+        "title": "Architecture & Technical Consulting",
+        "description": "An audit of what you have and the design of robust, scalable architectures, with a realistic migration path.",
+        "tags": ["Clean Architecture", "Microservices", "Docker", "CI/CD"]
+      }
+    ],
+    "ctaPanel": {
+      "title": "Does your need look like one of these?",
+      "body": "Thirty minutes is enough to know whether it's feasible, at what cost and on what timeline.",
+      "button": "Book a call"
+    }
+  },
+  "education": {
+    "eyebrow": "Education & languages",
+    "title": "Education and languages",
+    "degreesLabel": "Degrees",
+    "degrees": [
+      {
+        "title": "State Engineer in Computer Science and Networks",
+        "school": "EMSI — Moroccan School of Engineering Sciences",
+        "location": "Tangier, Morocco"
+      }
+    ],
+    "languagesLabel": "Languages",
+    "languages": [
+      {
+        "name": "Arabic",
+        "level": "Native",
+        "score": 3
+      },
+      {
+        "name": "French",
+        "level": "Advanced",
+        "score": 3
+      },
+      {
+        "name": "English",
+        "level": "Intermediate",
+        "score": 2
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "intro": "Describe what you need in a few lines, or book a 30-minute slot directly.",
+    "directLabel": "Direct contact",
+    "email": "mdchafi122@gmail.com",
+    "phone": "+212 619258671",
+    "linkedin": "linkedin.com/in/mohammed-chafi",
+    "linkedinUrl": "https://www.linkedin.com/in/mohammed-chafi",
+    "locationLabel": "Location",
+    "location": "Tangier, Morocco — on-site and remote engagements",
+    "form": {
+      "title": "Send a message",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyOptional": "optional",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Describe what you need in a few lines.",
+      "submit": "Send message",
+      "sending": "Sending",
+      "successTitle": "Message ready to send",
+      "success": "Your mail client opens with the message pre-filled. Send it to finish.",
+      "errorRequired": "This field is required.",
+      "errorEmail": "Enter a valid email address."
+    },
+    "calendly": {
+      "title": "Book a slot",
+      "subtitle": "Discovery call — 30 minutes",
+      "description": "Pick a time that suits you. We go through what you need and I tell you what is feasible.",
+      "loading": "Loading the calendar",
+      "fallback": "Calendar not showing?",
+      "fallbackLink": "Open Calendly in a new tab"
+    }
+  },
+  "footer": {
+    "tagline": "Software solutions, AI and industrial systems.",
+    "navLabel": "Navigation",
+    "contactLabel": "Contact",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
