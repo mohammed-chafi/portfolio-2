@@ -312,9 +312,21 @@ function ComplianceVisual({ className }: VisualProps) {
   );
 }
 
-const VISUALS = [StorefrontVisual, PredictiveVisual, WeighingVisual, ComplianceVisual];
+/*
+ * Keyed by name, not by position. The locales list the projects in different
+ * orders, so an index-based lookup paired a project with another project's
+ * schematic on any locale that reordered them.
+ */
+const VISUALS = {
+  storefront: StorefrontVisual,
+  predictive: PredictiveVisual,
+  weighing: WeighingVisual,
+  compliance: ComplianceVisual,
+} as const;
 
-export function ProjectVisual({ index, className }: { index: number; className?: string }) {
-  const Visual = VISUALS[index % VISUALS.length];
+export type VisualKey = keyof typeof VISUALS;
+
+export function ProjectVisual({ name, className }: { name?: string; className?: string }) {
+  const Visual = (name && VISUALS[name as VisualKey]) || ComplianceVisual;
   return <Visual className={className} />;
 }

@@ -46,7 +46,7 @@ export const CALENDLY_URL =
 export const SECTIONS = [
   "about",
   "expertise",
-  "experience",
+  "clients",
   "projects",
   "services",
   "education",
@@ -59,7 +59,7 @@ export type SectionId = (typeof SECTIONS)[number];
 export const HEADER_NAV: SectionId[] = [
   "about",
   "expertise",
-  "experience",
+  "clients",
   "projects",
   "services",
   "contact",

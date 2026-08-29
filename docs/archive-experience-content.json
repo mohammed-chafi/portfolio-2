@@ -1,0 +1,374 @@
+{
+  "fr": {
+    "eyebrow": "Parcours",
+    "title": "Expérience professionnelle",
+    "intro": "Cinq missions, de l'application métier interne au site e-commerce en production.",
+    "expand": "Voir les détails",
+    "collapse": "Masquer les détails",
+    "responsibilitiesLabel": "Responsabilités",
+    "stackLabel": "Stack technique",
+    "items": [
+      {
+        "period": "Fév. 2026 – Juil. 2026",
+        "role": "Développeur .NET & Angular",
+        "contract": "Stage PFE",
+        "org": "TE Connectivity",
+        "location": "Tanger",
+        "summary": "Système de gestion des formations et des certifications : API ASP.NET Core en Clean Architecture et dashboard Angular pour le suivi de conformité.",
+        "responsibilities": [
+          "Conception et développement d'une API ASP.NET Core structurée en Clean Architecture",
+          "Développement du dashboard Angular de suivi des formations et des certifications",
+          "Modélisation des parcours de formation, des habilitations et de leurs échéances",
+          "Mise en place de l'authentification et de la gestion des rôles (JWT/RBAC)"
+        ],
+        "stack": [
+          "ASP.NET Core",
+          "C#",
+          "Angular",
+          "TypeScript",
+          "Clean Architecture",
+          "SQL Server",
+          "JWT/RBAC"
+        ]
+      },
+      {
+        "period": "Juil. 2024 – Sept. 2025",
+        "role": "Ingénieur Logiciel & IA",
+        "contract": "Stage",
+        "org": "MTS",
+        "location": "Tanger",
+        "summary": "Plateforme de maintenance prédictive : acquisition IoT des données machine, modèle de prédiction de pannes et dashboard de supervision temps réel.",
+        "responsibilities": [
+          "Acquisition des données machine par capteurs ESP32 et transport via MQTT",
+          "Construction du pipeline de données et préparation des jeux d'entraînement",
+          "Entraînement et évaluation d'un modèle de Machine Learning de prédiction de pannes",
+          "Développement du dashboard React de supervision et d'alerte en temps réel"
+        ],
+        "stack": [
+          "Python",
+          "Scikit-learn",
+          "ESP32",
+          "MQTT",
+          "React",
+          "Machine Learning",
+          "IoT"
+        ]
+      },
+      {
+        "period": "Jan. 2024 – Oct. 2025",
+        "role": "Développeur .NET",
+        "contract": "Freelance",
+        "org": "SENSGRP",
+        "location": "Kénitra",
+        "summary": "Application desktop WPF de pesée industrielle communiquant avec un automate via Modbus, adossée à un service web ASP.NET et à l'impression de tickets.",
+        "responsibilities": [
+          "Développement de l'application desktop WPF de pesée industrielle",
+          "Communication temps réel avec l'automate de pesage via Modbus TCP",
+          "Développement du service web ASP.NET d'enregistrement et de consultation des pesées",
+          "Génération et impression automatique des tickets de pesée"
+        ],
+        "stack": [
+          "C#",
+          "WPF",
+          "ASP.NET",
+          "Modbus TCP",
+          "SQL Server",
+          ".NET"
+        ]
+      },
+      {
+        "period": "Sept. 2023 – Juin 2025",
+        "role": "Développeur Java & Next.js",
+        "contract": "Freelance",
+        "org": "ITALBOX",
+        "location": "Tanger",
+        "summary": "Site e-commerce complet mis en production sur italbox.ma : back-end Spring Boot, front Next.js, recherche Algolia et déploiement conteneurisé.",
+        "responsibilities": [
+          "Développement du back-end Spring Boot et de l'API REST du catalogue",
+          "Développement du front-office Next.js et du tunnel de commande",
+          "Intégration de la recherche produit Algolia et modélisation PostgreSQL",
+          "Conteneurisation Docker et mise en production sur serveur"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Next.js",
+          "React",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ]
+      },
+      {
+        "period": "Mai 2022 – Août 2022",
+        "role": "Développeur Java & Angular",
+        "contract": "Stage PFE",
+        "org": "Province de Berkane",
+        "location": "Berkane",
+        "summary": "Application de gestion des stagiaires couvrant les candidatures, les affectations et les évaluations, développée en Spring Boot et Angular.",
+        "responsibilities": [
+          "Développement de l'API Spring Boot de gestion des candidatures",
+          "Développement de l'interface Angular d'affectation des stagiaires aux services",
+          "Mise en place du module d'évaluation et de suivi de fin de stage",
+          "Modélisation de la base de données et des rôles utilisateurs"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "TypeScript",
+          "MySQL",
+          "REST API"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "eyebrow": "Track record",
+    "title": "Professional experience",
+    "intro": "Five engagements, from internal business tools to a live e-commerce platform.",
+    "expand": "See details",
+    "collapse": "Hide details",
+    "responsibilitiesLabel": "Responsibilities",
+    "stackLabel": "Tech stack",
+    "items": [
+      {
+        "period": "Feb. 2026 – Jul. 2026",
+        "role": ".NET & Angular Developer",
+        "contract": "Final-year internship",
+        "org": "TE Connectivity",
+        "location": "Tangier",
+        "summary": "Training and certification management system: an ASP.NET Core API built on Clean Architecture with an Angular dashboard for compliance tracking.",
+        "responsibilities": [
+          "Designed and built an ASP.NET Core API structured on Clean Architecture",
+          "Developed the Angular dashboard for training and certification tracking",
+          "Modelled training paths, qualifications and their expiry dates",
+          "Implemented authentication and role management (JWT/RBAC)"
+        ],
+        "stack": [
+          "ASP.NET Core",
+          "C#",
+          "Angular",
+          "TypeScript",
+          "Clean Architecture",
+          "SQL Server",
+          "JWT/RBAC"
+        ]
+      },
+      {
+        "period": "Jul. 2024 – Sep. 2025",
+        "role": "Software & AI Engineer",
+        "contract": "Internship",
+        "org": "MTS",
+        "location": "Tangier",
+        "summary": "Predictive maintenance platform: IoT acquisition of machine data, a failure-prediction model, and a real-time monitoring dashboard.",
+        "responsibilities": [
+          "Collected machine data through ESP32 sensors, transported over MQTT",
+          "Built the data pipeline and prepared the training datasets",
+          "Trained and evaluated a Machine Learning failure-prediction model",
+          "Developed the React dashboard for real-time monitoring and alerting"
+        ],
+        "stack": [
+          "Python",
+          "Scikit-learn",
+          "ESP32",
+          "MQTT",
+          "React",
+          "Machine Learning",
+          "IoT"
+        ]
+      },
+      {
+        "period": "Jan. 2024 – Oct. 2025",
+        "role": ".NET Developer",
+        "contract": "Freelance",
+        "org": "SENSGRP",
+        "location": "Kenitra",
+        "summary": "WPF desktop application for industrial weighing, talking to a PLC over Modbus, backed by an ASP.NET web service and ticket printing.",
+        "responsibilities": [
+          "Built the WPF desktop application for industrial weighing",
+          "Implemented real-time communication with the weighing PLC over Modbus TCP",
+          "Developed the ASP.NET web service recording and querying weighings",
+          "Automated generation and printing of weighing tickets"
+        ],
+        "stack": [
+          "C#",
+          "WPF",
+          "ASP.NET",
+          "Modbus TCP",
+          "SQL Server",
+          ".NET"
+        ]
+      },
+      {
+        "period": "Sep. 2023 – Jun. 2025",
+        "role": "Java & Next.js Developer",
+        "contract": "Freelance",
+        "org": "ITALBOX",
+        "location": "Tangier",
+        "summary": "Full e-commerce site shipped to production at italbox.ma: Spring Boot back end, Next.js front end, Algolia search and containerized deployment.",
+        "responsibilities": [
+          "Developed the Spring Boot back end and the catalogue REST API",
+          "Built the Next.js storefront and the checkout flow",
+          "Integrated Algolia product search and modelled the PostgreSQL schema",
+          "Containerized with Docker and deployed to production"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Next.js",
+          "React",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ]
+      },
+      {
+        "period": "May 2022 – Aug. 2022",
+        "role": "Java & Angular Developer",
+        "contract": "Final-year internship",
+        "org": "Province of Berkane",
+        "location": "Berkane",
+        "summary": "Intern management application covering applications, placements and evaluations, built with Spring Boot and Angular.",
+        "responsibilities": [
+          "Developed the Spring Boot API for handling applications",
+          "Built the Angular interface for assigning interns to departments",
+          "Implemented the end-of-internship evaluation and follow-up module",
+          "Modelled the database schema and user roles"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "TypeScript",
+          "MySQL",
+          "REST API"
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "eyebrow": "المسار المهني",
+    "title": "الخبرة المهنية",
+    "intro": "خمس مهام، من الأدوات الداخلية للشركات إلى متجر إلكتروني في الإنتاج.",
+    "expand": "عرض التفاصيل",
+    "collapse": "إخفاء التفاصيل",
+    "responsibilitiesLabel": "المهام",
+    "stackLabel": "التقنيات المستعملة",
+    "items": [
+      {
+        "period": "فبراير 2026 – يوليوز 2026",
+        "role": "مطور ‎.NET و Angular",
+        "contract": "تدريب نهاية الدراسة",
+        "org": "TE Connectivity",
+        "location": "طنجة",
+        "summary": "نظام لتدبير التكوينات والشهادات: واجهة برمجية ASP.NET Core وفق Clean Architecture ولوحة قيادة Angular لتتبع المطابقة.",
+        "responsibilities": [
+          "تصميم وتطوير واجهة برمجية ASP.NET Core مبنية على Clean Architecture",
+          "تطوير لوحة قيادة Angular لتتبع التكوينات والشهادات",
+          "نمذجة مسارات التكوين والتأهيلات وتواريخ انتهاء صلاحيتها",
+          "إرساء نظام المصادقة وتدبير الأدوار (JWT/RBAC)"
+        ],
+        "stack": [
+          "ASP.NET Core",
+          "C#",
+          "Angular",
+          "TypeScript",
+          "Clean Architecture",
+          "SQL Server",
+          "JWT/RBAC"
+        ]
+      },
+      {
+        "period": "يوليوز 2024 – شتنبر 2025",
+        "role": "مهندس برمجيات وذكاء اصطناعي",
+        "contract": "تدريب",
+        "org": "MTS",
+        "location": "طنجة",
+        "summary": "منصة للصيانة التنبؤية: جمع بيانات الآلات عبر إنترنت الأشياء، نموذج للتنبؤ بالأعطال، ولوحة قيادة للمراقبة في الوقت الفعلي.",
+        "responsibilities": [
+          "جمع بيانات الآلات عبر مستشعرات ESP32 ونقلها بواسطة MQTT",
+          "بناء خط معالجة البيانات وتحضير مجموعات التدريب",
+          "تدريب وتقييم نموذج تعلم آلي للتنبؤ بالأعطال",
+          "تطوير لوحة قيادة React للمراقبة والتنبيه في الوقت الفعلي"
+        ],
+        "stack": [
+          "Python",
+          "Scikit-learn",
+          "ESP32",
+          "MQTT",
+          "React",
+          "Machine Learning",
+          "IoT"
+        ]
+      },
+      {
+        "period": "يناير 2024 – أكتوبر 2025",
+        "role": "مطور ‎.NET",
+        "contract": "عمل مستقل",
+        "org": "SENSGRP",
+        "location": "القنيطرة",
+        "summary": "تطبيق مكتبي WPF للوزن الصناعي يتواصل مع وحدة تحكم آلية عبر Modbus، مدعوماً بخدمة ويب ASP.NET وطباعة التذاكر.",
+        "responsibilities": [
+          "تطوير التطبيق المكتبي WPF الخاص بالوزن الصناعي",
+          "التواصل في الوقت الفعلي مع وحدة التحكم الآلية عبر Modbus TCP",
+          "تطوير خدمة الويب ASP.NET لتسجيل عمليات الوزن واستعراضها",
+          "توليد وطباعة تذاكر الوزن بشكل آلي"
+        ],
+        "stack": [
+          "C#",
+          "WPF",
+          "ASP.NET",
+          "Modbus TCP",
+          "SQL Server",
+          "‎.NET"
+        ]
+      },
+      {
+        "period": "شتنبر 2023 – يونيو 2025",
+        "role": "مطور Java و Next.js",
+        "contract": "عمل مستقل",
+        "org": "ITALBOX",
+        "location": "طنجة",
+        "summary": "متجر إلكتروني متكامل في الإنتاج على italbox.ma: واجهة خلفية Spring Boot، واجهة أمامية Next.js، بحث Algolia ونشر عبر الحاويات.",
+        "responsibilities": [
+          "تطوير الواجهة الخلفية Spring Boot وواجهة REST الخاصة بالكتالوج",
+          "تطوير الواجهة الأمامية Next.js ومسار إتمام الطلب",
+          "دمج البحث عن المنتجات عبر Algolia ونمذجة قاعدة بيانات PostgreSQL",
+          "التغليف عبر Docker والنشر على الخادم"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Next.js",
+          "React",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ]
+      },
+      {
+        "period": "ماي 2022 – غشت 2022",
+        "role": "مطور Java و Angular",
+        "contract": "تدريب نهاية الدراسة",
+        "org": "عمالة بركان",
+        "location": "بركان",
+        "summary": "تطبيق لتدبير المتدربين يشمل الترشيحات والتعيينات والتقييمات، مطور بـ Spring Boot و Angular.",
+        "responsibilities": [
+          "تطوير واجهة برمجية Spring Boot لتدبير الترشيحات",
+          "تطوير واجهة Angular لتعيين المتدربين على المصالح",
+          "إرساء وحدة التقييم وتتبع نهاية التدريب",
+          "نمذجة قاعدة البيانات وأدوار المستخدمين"
+        ],
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "TypeScript",
+          "MySQL",
+          "REST API"
+        ]
+      }
+    ]
+  }
+}

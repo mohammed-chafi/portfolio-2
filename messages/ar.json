@@ -7,7 +7,6 @@
   "nav": {
     "about": "نبذة عني",
     "expertise": "مجالات الخبرة",
-    "experience": "المسار المهني",
     "projects": "المشاريع",
     "services": "الخدمات",
     "education": "التكوين",
@@ -17,7 +16,8 @@
     "closeMenu": "إغلاق القائمة",
     "skipToContent": "تخطي إلى المحتوى الرئيسي",
     "languageLabel": "تغيير اللغة",
-    "primaryNav": "التنقل الرئيسي"
+    "primaryNav": "التنقل الرئيسي",
+    "clients": "العملاء"
   },
   "hero": {
     "name": "محمد شافي",
@@ -36,7 +36,10 @@
       "iot": "إنترنت الأشياء",
       "industry": "الصناعة"
     },
-    "availabilityShort": "متاح"
+    "availabilityShort": "متاح",
+    "trustLabel": "وثقوا بي",
+    "credential": "مهندس دولة — EMSI طنجة",
+    "figureAlt": "رسم خطي لمهندس، في انتظار صورة محمد شافي"
   },
   "about": {
     "eyebrow": "نبذة عني",
@@ -91,7 +94,14 @@
       {
         "title": "الذكاء الاصطناعي وتعلم الآلة",
         "description": "نماذج تعلم آلي وعميق لحل مشاكل حقيقية، من البيانات الخام إلى تنبؤ قابل للاستعمال.",
-        "tags": ["Python", "Scikit-learn", "TensorFlow", "Keras", "BERT", "NLP"]
+        "tags": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "Keras",
+          "BERT",
+          "NLP"
+        ]
       },
       {
         "title": "هندسة البيانات وذكاء الأعمال",
@@ -109,7 +119,12 @@
       {
         "title": "إنترنت الأشياء والأنظمة الصناعية",
         "description": "ربط ومراقبة المعدات في الوقت الفعلي، من المستشعر إلى لوحة القيادة.",
-        "tags": ["ESP32", "MQTT", "Modbus TCP", "الصيانة التنبؤية"]
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Modbus TCP",
+          "الصيانة التنبؤية"
+        ]
       },
       {
         "title": "هندسة البرمجيات وأفضل الممارسات",
@@ -126,123 +141,14 @@
       {
         "title": "DevOps والنشر",
         "description": "الحاويات والنشر الإنتاجي والمراقبة، وصولاً إلى التسليم على الخادم.",
-        "tags": ["Docker", "Git", "Linux", "Nginx", "IIS", "VPS Cloud", "CI/CD"]
-      }
-    ]
-  },
-  "experience": {
-    "eyebrow": "المسار المهني",
-    "title": "الخبرة المهنية",
-    "intro": "خمس مهام، من الأدوات الداخلية للشركات إلى متجر إلكتروني في الإنتاج.",
-    "expand": "عرض التفاصيل",
-    "collapse": "إخفاء التفاصيل",
-    "responsibilitiesLabel": "المهام",
-    "stackLabel": "التقنيات المستعملة",
-    "items": [
-      {
-        "period": "فبراير 2026 – يوليوز 2026",
-        "role": "مطور ‎.NET و Angular",
-        "contract": "تدريب نهاية الدراسة",
-        "org": "TE Connectivity",
-        "location": "طنجة",
-        "summary": "نظام لتدبير التكوينات والشهادات: واجهة برمجية ASP.NET Core وفق Clean Architecture ولوحة قيادة Angular لتتبع المطابقة.",
-        "responsibilities": [
-          "تصميم وتطوير واجهة برمجية ASP.NET Core مبنية على Clean Architecture",
-          "تطوير لوحة قيادة Angular لتتبع التكوينات والشهادات",
-          "نمذجة مسارات التكوين والتأهيلات وتواريخ انتهاء صلاحيتها",
-          "إرساء نظام المصادقة وتدبير الأدوار (JWT/RBAC)"
-        ],
-        "stack": [
-          "ASP.NET Core",
-          "C#",
-          "Angular",
-          "TypeScript",
-          "Clean Architecture",
-          "SQL Server",
-          "JWT/RBAC"
-        ]
-      },
-      {
-        "period": "يوليوز 2024 – شتنبر 2025",
-        "role": "مهندس برمجيات وذكاء اصطناعي",
-        "contract": "تدريب",
-        "org": "MTS",
-        "location": "طنجة",
-        "summary": "منصة للصيانة التنبؤية: جمع بيانات الآلات عبر إنترنت الأشياء، نموذج للتنبؤ بالأعطال، ولوحة قيادة للمراقبة في الوقت الفعلي.",
-        "responsibilities": [
-          "جمع بيانات الآلات عبر مستشعرات ESP32 ونقلها بواسطة MQTT",
-          "بناء خط معالجة البيانات وتحضير مجموعات التدريب",
-          "تدريب وتقييم نموذج تعلم آلي للتنبؤ بالأعطال",
-          "تطوير لوحة قيادة React للمراقبة والتنبيه في الوقت الفعلي"
-        ],
-        "stack": [
-          "Python",
-          "Scikit-learn",
-          "ESP32",
-          "MQTT",
-          "React",
-          "Machine Learning",
-          "IoT"
-        ]
-      },
-      {
-        "period": "يناير 2024 – أكتوبر 2025",
-        "role": "مطور ‎.NET",
-        "contract": "عمل مستقل",
-        "org": "SENSGRP",
-        "location": "القنيطرة",
-        "summary": "تطبيق مكتبي WPF للوزن الصناعي يتواصل مع وحدة تحكم آلية عبر Modbus، مدعوماً بخدمة ويب ASP.NET وطباعة التذاكر.",
-        "responsibilities": [
-          "تطوير التطبيق المكتبي WPF الخاص بالوزن الصناعي",
-          "التواصل في الوقت الفعلي مع وحدة التحكم الآلية عبر Modbus TCP",
-          "تطوير خدمة الويب ASP.NET لتسجيل عمليات الوزن واستعراضها",
-          "توليد وطباعة تذاكر الوزن بشكل آلي"
-        ],
-        "stack": ["C#", "WPF", "ASP.NET", "Modbus TCP", "SQL Server", "‎.NET"]
-      },
-      {
-        "period": "شتنبر 2023 – يونيو 2025",
-        "role": "مطور Java و Next.js",
-        "contract": "عمل مستقل",
-        "org": "ITALBOX",
-        "location": "طنجة",
-        "summary": "متجر إلكتروني متكامل في الإنتاج على italbox.ma: واجهة خلفية Spring Boot، واجهة أمامية Next.js، بحث Algolia ونشر عبر الحاويات.",
-        "responsibilities": [
-          "تطوير الواجهة الخلفية Spring Boot وواجهة REST الخاصة بالكتالوج",
-          "تطوير الواجهة الأمامية Next.js ومسار إتمام الطلب",
-          "دمج البحث عن المنتجات عبر Algolia ونمذجة قاعدة بيانات PostgreSQL",
-          "التغليف عبر Docker والنشر على الخادم"
-        ],
-        "stack": [
-          "Java",
-          "Spring Boot",
-          "Next.js",
-          "React",
-          "PostgreSQL",
-          "Algolia",
-          "Docker"
-        ]
-      },
-      {
-        "period": "ماي 2022 – غشت 2022",
-        "role": "مطور Java و Angular",
-        "contract": "تدريب نهاية الدراسة",
-        "org": "عمالة بركان",
-        "location": "بركان",
-        "summary": "تطبيق لتدبير المتدربين يشمل الترشيحات والتعيينات والتقييمات، مطور بـ Spring Boot و Angular.",
-        "responsibilities": [
-          "تطوير واجهة برمجية Spring Boot لتدبير الترشيحات",
-          "تطوير واجهة Angular لتعيين المتدربين على المصالح",
-          "إرساء وحدة التقييم وتتبع نهاية التدريب",
-          "نمذجة قاعدة البيانات وأدوار المستخدمين"
-        ],
-        "stack": [
-          "Java",
-          "Spring Boot",
-          "Angular",
-          "TypeScript",
-          "MySQL",
-          "REST API"
+        "tags": [
+          "Docker",
+          "Git",
+          "Linux",
+          "Nginx",
+          "IIS",
+          "VPS Cloud",
+          "CI/CD"
         ]
       }
     ]
@@ -257,35 +163,70 @@
         "name": "ITALBOX",
         "context": "متجر إلكتروني في الإنتاج",
         "description": "متجر إلكتروني متكامل: كتالوج، بحث فوري، سلة وإتمام الطلب، منشور عبر الحاويات وفي الخدمة منذ 2024.",
-        "tags": ["Spring Boot", "Next.js", "PostgreSQL", "Algolia", "Docker"],
+        "tags": [
+          "Spring Boot",
+          "Next.js",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ],
         "url": "https://italbox.ma",
-        "urlLabel": "italbox.ma"
-      },
-      {
-        "name": "منصة الصيانة التنبؤية",
-        "context": "MTS — ذكاء اصطناعي وإنترنت أشياء صناعي",
-        "description": "ترفع المستشعرات حالة الآلات باستمرار؛ ويرصد نموذج تعلم آلي الانحراف قبل وقوع العطل ويطلق التنبيه على لوحة القيادة.",
-        "tags": ["ESP32", "MQTT", "Python", "Scikit-learn", "React"]
-      },
-      {
-        "name": "تطبيق الوزن الصناعي",
-        "context": "SENSGRP — تطبيق مكتبي ووحدة تحكم",
-        "description": "محطة وزن مرتبطة بوحدة التحكم عبر Modbus TCP: قراءة الوزن في الوقت الفعلي، التسجيل عبر خدمة الويب، وطباعة التذكرة.",
-        "tags": ["WPF", "C#", "Modbus TCP", "ASP.NET"]
-      },
-      {
-        "name": "Training Track System",
-        "context": "TE Connectivity — التكوين والمطابقة",
-        "description": "تتبع تكوينات وشهادات الموظفين: تواريخ الانتهاء والتأهيلات وحالة المطابقة على لوحة قيادة واحدة.",
-        "tags": ["ASP.NET Core", "Angular", "Clean Architecture", "SQL Server"]
+        "urlLabel": "italbox.ma",
+        "image": "/images/projects/italbox.png",
+        "domain": "italbox.ma",
+        "visual": "storefront"
       },
       {
         "name": "MTSSRL",
         "context": "موقع تعريفي في الإنتاج",
         "description": "موقع تعريفي احترافي يقدم MTSSRL، شركة متخصصة في تصميم وتصنيع الآلات والحلول الصناعية. يبرز الموقع خبرتها وإنجازاتها وخدماتها ودرايتها من خلال واجهة عصرية وواضحة ومتجاوبة.",
-        "tags": ["HTML", "CSS", "JavaScript"],
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "url": "https://mtssrl.ma",
-        "urlLabel": "mtssrl.ma"
+        "urlLabel": "mtssrl.ma",
+        "image": "/images/projects/mts.png",
+        "domain": "mtssrl.ma",
+        "visual": "storefront"
+      },
+      {
+        "name": "منصة الصيانة التنبؤية",
+        "context": "MTS — ذكاء اصطناعي وإنترنت أشياء صناعي",
+        "description": "ترفع المستشعرات حالة الآلات باستمرار؛ ويرصد نموذج تعلم آلي الانحراف قبل وقوع العطل ويطلق التنبيه على لوحة القيادة.",
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Python",
+          "Scikit-learn",
+          "React"
+        ],
+        "visual": "predictive"
+      },
+      {
+        "name": "تطبيق الوزن الصناعي",
+        "context": "SENSGRP — تطبيق مكتبي ووحدة تحكم",
+        "description": "محطة وزن مرتبطة بوحدة التحكم عبر Modbus TCP: قراءة الوزن في الوقت الفعلي، التسجيل عبر خدمة الويب، وطباعة التذكرة.",
+        "tags": [
+          "WPF",
+          "C#",
+          "Modbus TCP",
+          "ASP.NET"
+        ],
+        "visual": "weighing"
+      },
+      {
+        "name": "Training Track System",
+        "context": "TE Connectivity — التكوين والمطابقة",
+        "description": "تتبع تكوينات وشهادات الموظفين: تواريخ الانتهاء والتأهيلات وحالة المطابقة على لوحة قيادة واحدة.",
+        "tags": [
+          "ASP.NET Core",
+          "Angular",
+          "Clean Architecture",
+          "SQL Server"
+        ],
+        "visual": "compliance"
       }
     ]
   },
@@ -298,37 +239,72 @@
       {
         "title": "تطوير تطبيقات مخصصة",
         "description": "تصميم وتطوير تطبيقات ويب وسطح مكتب مبنية على مساراتكم المهنية الحقيقية، لا على قالب جاهز.",
-        "tags": ["ASP.NET Core", "Spring Boot", "Next.js", "Angular"]
+        "tags": [
+          "ASP.NET Core",
+          "Spring Boot",
+          "Next.js",
+          "Angular"
+        ]
       },
       {
         "title": "حلول الذكاء الاصطناعي وتعلم الآلة",
         "description": "دمج نماذج الذكاء الاصطناعي حيث توفر وقتاً حقيقياً: الأتمتة، تصنيف الوثائق، والتنبؤ.",
-        "tags": ["Python", "Scikit-learn", "TensorFlow", "NLP"]
+        "tags": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "NLP"
+        ]
       },
       {
         "title": "هندسة البيانات وذكاء الأعمال",
         "description": "بيانات متفرقة تُجمع في خطوط موثوقة، ثم تُقدَّم في لوحات قيادة يمكن الاعتماد عليها في القرار.",
-        "tags": ["Apache Spark", "Kafka", "Airflow", "Power BI"]
+        "tags": [
+          "Apache Spark",
+          "Kafka",
+          "Airflow",
+          "Power BI"
+        ]
       },
       {
         "title": "إنترنت الأشياء والأتمتة الصناعية",
         "description": "ربط معداتكم ومراقبتها في الوقت الفعلي، من المستشعر على الآلة إلى الشاشة داخل الورشة.",
-        "tags": ["ESP32", "MQTT", "Modbus TCP", "Node.js"]
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Modbus TCP",
+          "Node.js"
+        ]
       },
       {
         "title": "الصيانة التنبؤية والمراقبة",
         "description": "توقع الأعطال بدل تحمّلها: رصد الانحراف، تنبيهات مبكرة، وتقليل توقف الإنتاج.",
-        "tags": ["Machine Learning", "Python", "IoT", "Dashboards"]
+        "tags": [
+          "Machine Learning",
+          "Python",
+          "IoT",
+          "Dashboards"
+        ]
       },
       {
         "title": "الرقمنة وتحويل العمليات",
         "description": "تحويل المساطر الورقية وجداول Excel إلى أدوات ويب مركزية قابلة للتتبع ومتاحة لكل الفريق.",
-        "tags": ["Next.js", "REST API", "PostgreSQL", "SQL Server"]
+        "tags": [
+          "Next.js",
+          "REST API",
+          "PostgreSQL",
+          "SQL Server"
+        ]
       },
       {
         "title": "الهندسة المعمارية والاستشارات التقنية",
         "description": "تدقيق الموجود وتصميم هياكل قوية وقابلة للتطور، مع خارطة طريق واقعية للانتقال.",
-        "tags": ["Clean Architecture", "Microservices", "Docker", "CI/CD"]
+        "tags": [
+          "Clean Architecture",
+          "Microservices",
+          "Docker",
+          "CI/CD"
+        ]
       }
     ],
     "ctaPanel": {
@@ -411,5 +387,54 @@
     "contactLabel": "اتصل بي",
     "rights": "جميع الحقوق محفوظة.",
     "backToTop": "أعلى الصفحة"
+  },
+  "clients": {
+    "eyebrow": "العملاء",
+    "title": "شركات تُشغّل خطوط إنتاج حقيقية",
+    "intro": "ثلاث مؤسسات صناعية وتجارية صمّمت لها وطوّرت ووضعت في الإنتاج أنظمة فعلية.",
+    "items": [
+      {
+        "name": "MTS",
+        "logo": "/images/clients/mts.png",
+        "sector": "الآلات الخاصة والأتمتة",
+        "location": "طنجة",
+        "period": "2024 – 2025",
+        "work": "منصة للصيانة التنبؤية: جمع بيانات الآلات عبر إنترنت الأشياء، نموذج للتنبؤ بالأعطال ومراقبة في الوقت الفعلي.",
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Python",
+          "React"
+        ]
+      },
+      {
+        "name": "SENSGRP",
+        "logo": "/images/clients/sensgrp.png",
+        "sector": "الطاقة والقياس",
+        "location": "القنيطرة",
+        "period": "2024 – 2025",
+        "work": "محطة وزن صناعي: تطبيق مكتبي WPF مرتبط بوحدة التحكم عبر Modbus TCP، خدمة ويب وطباعة التذاكر.",
+        "tags": [
+          "WPF",
+          "C#",
+          "Modbus TCP",
+          "ASP.NET"
+        ]
+      },
+      {
+        "name": "ITALBOX",
+        "logo": "/images/clients/italbox-on-light.svg",
+        "sector": "توزيع العدد الصناعية",
+        "location": "طنجة",
+        "period": "2023 – 2025",
+        "work": "متجر إلكتروني متكامل في الإنتاج: واجهة خلفية Spring Boot، واجهة أمامية Next.js، بحث Algolia ونشر عبر الحاويات.",
+        "tags": [
+          "Spring Boot",
+          "Next.js",
+          "PostgreSQL",
+          "Algolia"
+        ]
+      }
+    ]
   }
 }

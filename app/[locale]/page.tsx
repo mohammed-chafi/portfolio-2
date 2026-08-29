@@ -3,7 +3,7 @@ import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { ExpertiseGrid } from '@/components/ExpertiseGrid';
-import { Timeline } from '@/components/Timeline';
+import { Clients } from '@/components/Clients';
 import { Projects } from '@/components/Projects';
 import { ServicesGrid } from '@/components/ServicesGrid';
 import { Education } from '@/components/Education';
@@ -85,7 +85,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <Hero />
         <About />
         <ExpertiseGrid />
-        <Timeline />
+        <Clients />
         <Projects />
         <ServicesGrid />
         <Education />

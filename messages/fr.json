@@ -7,7 +7,6 @@
   "nav": {
     "about": "À propos",
     "expertise": "Expertise",
-    "experience": "Expérience",
     "projects": "Projets",
     "services": "Services",
     "education": "Formation",
@@ -17,7 +16,8 @@
     "closeMenu": "Fermer le menu",
     "skipToContent": "Aller au contenu principal",
     "languageLabel": "Changer de langue",
-    "primaryNav": "Navigation principale"
+    "primaryNav": "Navigation principale",
+    "clients": "Clients"
   },
   "hero": {
     "name": "Mohammed Chafi",
@@ -36,7 +36,10 @@
       "iot": "IoT",
       "industry": "Industrie"
     },
-    "availabilityShort": "Disponible"
+    "availabilityShort": "Disponible",
+    "trustLabel": "Ils m'ont fait confiance",
+    "credential": "Ingénieur d'État — EMSI Tanger",
+    "figureAlt": "Illustration au trait d'un ingénieur, en attente de la photo de Mohammed Chafi"
   },
   "about": {
     "eyebrow": "À propos",
@@ -91,7 +94,14 @@
       {
         "title": "Intelligence Artificielle & Machine Learning",
         "description": "Modèles ML/DL appliqués à des problèmes concrets, de la donnée brute à la prédiction exploitable.",
-        "tags": ["Python", "Scikit-learn", "TensorFlow", "Keras", "BERT", "NLP"]
+        "tags": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "Keras",
+          "BERT",
+          "NLP"
+        ]
       },
       {
         "title": "Data Engineering & Business Intelligence",
@@ -109,7 +119,12 @@
       {
         "title": "IoT & Systèmes Industriels",
         "description": "Connexion et supervision d'équipements en temps réel, du capteur jusqu'au tableau de bord.",
-        "tags": ["ESP32", "MQTT", "Modbus TCP", "Maintenance prédictive"]
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Modbus TCP",
+          "Maintenance prédictive"
+        ]
       },
       {
         "title": "Architecture Logicielle & Bonnes Pratiques",
@@ -126,123 +141,14 @@
       {
         "title": "DevOps & Déploiement",
         "description": "Conteneurisation, mise en production et supervision, jusqu'à la livraison sur serveur.",
-        "tags": ["Docker", "Git", "Linux", "Nginx", "IIS", "VPS Cloud", "CI/CD"]
-      }
-    ]
-  },
-  "experience": {
-    "eyebrow": "Parcours",
-    "title": "Expérience professionnelle",
-    "intro": "Cinq missions, de l'application métier interne au site e-commerce en production.",
-    "expand": "Voir les détails",
-    "collapse": "Masquer les détails",
-    "responsibilitiesLabel": "Responsabilités",
-    "stackLabel": "Stack technique",
-    "items": [
-      {
-        "period": "Fév. 2026 – Juil. 2026",
-        "role": "Développeur .NET & Angular",
-        "contract": "Stage PFE",
-        "org": "TE Connectivity",
-        "location": "Tanger",
-        "summary": "Système de gestion des formations et des certifications : API ASP.NET Core en Clean Architecture et dashboard Angular pour le suivi de conformité.",
-        "responsibilities": [
-          "Conception et développement d'une API ASP.NET Core structurée en Clean Architecture",
-          "Développement du dashboard Angular de suivi des formations et des certifications",
-          "Modélisation des parcours de formation, des habilitations et de leurs échéances",
-          "Mise en place de l'authentification et de la gestion des rôles (JWT/RBAC)"
-        ],
-        "stack": [
-          "ASP.NET Core",
-          "C#",
-          "Angular",
-          "TypeScript",
-          "Clean Architecture",
-          "SQL Server",
-          "JWT/RBAC"
-        ]
-      },
-      {
-        "period": "Juil. 2024 – Sept. 2025",
-        "role": "Ingénieur Logiciel & IA",
-        "contract": "Stage",
-        "org": "MTS",
-        "location": "Tanger",
-        "summary": "Plateforme de maintenance prédictive : acquisition IoT des données machine, modèle de prédiction de pannes et dashboard de supervision temps réel.",
-        "responsibilities": [
-          "Acquisition des données machine par capteurs ESP32 et transport via MQTT",
-          "Construction du pipeline de données et préparation des jeux d'entraînement",
-          "Entraînement et évaluation d'un modèle de Machine Learning de prédiction de pannes",
-          "Développement du dashboard React de supervision et d'alerte en temps réel"
-        ],
-        "stack": [
-          "Python",
-          "Scikit-learn",
-          "ESP32",
-          "MQTT",
-          "React",
-          "Machine Learning",
-          "IoT"
-        ]
-      },
-      {
-        "period": "Jan. 2024 – Oct. 2025",
-        "role": "Développeur .NET",
-        "contract": "Freelance",
-        "org": "SENSGRP",
-        "location": "Kénitra",
-        "summary": "Application desktop WPF de pesée industrielle communiquant avec un automate via Modbus, adossée à un service web ASP.NET et à l'impression de tickets.",
-        "responsibilities": [
-          "Développement de l'application desktop WPF de pesée industrielle",
-          "Communication temps réel avec l'automate de pesage via Modbus TCP",
-          "Développement du service web ASP.NET d'enregistrement et de consultation des pesées",
-          "Génération et impression automatique des tickets de pesée"
-        ],
-        "stack": ["C#", "WPF", "ASP.NET", "Modbus TCP", "SQL Server", ".NET"]
-      },
-      {
-        "period": "Sept. 2023 – Juin 2025",
-        "role": "Développeur Java & Next.js",
-        "contract": "Freelance",
-        "org": "ITALBOX",
-        "location": "Tanger",
-        "summary": "Site e-commerce complet mis en production sur italbox.ma : back-end Spring Boot, front Next.js, recherche Algolia et déploiement conteneurisé.",
-        "responsibilities": [
-          "Développement du back-end Spring Boot et de l'API REST du catalogue",
-          "Développement du front-office Next.js et du tunnel de commande",
-          "Intégration de la recherche produit Algolia et modélisation PostgreSQL",
-          "Conteneurisation Docker et mise en production sur serveur"
-        ],
-        "stack": [
-          "Java",
-          "Spring Boot",
-          "Next.js",
-          "React",
-          "PostgreSQL",
-          "Algolia",
-          "Docker"
-        ]
-      },
-      {
-        "period": "Mai 2022 – Août 2022",
-        "role": "Développeur Java & Angular",
-        "contract": "Stage PFE",
-        "org": "Province de Berkane",
-        "location": "Berkane",
-        "summary": "Application de gestion des stagiaires couvrant les candidatures, les affectations et les évaluations, développée en Spring Boot et Angular.",
-        "responsibilities": [
-          "Développement de l'API Spring Boot de gestion des candidatures",
-          "Développement de l'interface Angular d'affectation des stagiaires aux services",
-          "Mise en place du module d'évaluation et de suivi de fin de stage",
-          "Modélisation de la base de données et des rôles utilisateurs"
-        ],
-        "stack": [
-          "Java",
-          "Spring Boot",
-          "Angular",
-          "TypeScript",
-          "MySQL",
-          "REST API"
+        "tags": [
+          "Docker",
+          "Git",
+          "Linux",
+          "Nginx",
+          "IIS",
+          "VPS Cloud",
+          "CI/CD"
         ]
       }
     ]
@@ -254,38 +160,73 @@
     "visitLabel": "Voir le site",
     "items": [
       {
-        "name": "Training Track System",
-        "context": "TE Connectivity — Formations & conformité",
-        "description": "Suivi des formations et des certifications du personnel : échéances, habilitations et état de conformité visibles sur un tableau de bord unique.",
-        "tags": ["ASP.NET Core", "Angular", "Clean Architecture", "SQL Server"]
-      },
-      {
         "name": "ITALBOX",
         "context": "Site e-commerce en production",
         "description": "Boutique en ligne complète : catalogue, recherche instantanée, panier et commande, déployée en conteneurs et en service depuis 2024.",
-        "tags": ["Spring Boot", "Next.js", "PostgreSQL", "Algolia", "Docker"],
+        "tags": [
+          "Spring Boot",
+          "Next.js",
+          "PostgreSQL",
+          "Algolia",
+          "Docker"
+        ],
         "url": "https://italbox.ma",
-        "urlLabel": "italbox.ma"
+        "urlLabel": "italbox.ma",
+        "image": "/images/projects/italbox.png",
+        "domain": "italbox.ma",
+        "visual": "storefront"
       },
       {
         "name": "MTSSRL",
         "context": "Site vitrine en production",
         "description": "Site vitrine professionnel présentant MTSSRL, une entreprise spécialisée dans la conception et la fabrication de machines et solutions industrielles. Le site met en avant son expertise, ses réalisations, ses services et son savoir-faire à travers une interface moderne, claire et responsive.",
-        "tags": ["HTML", "CSS", "JavaScript"],
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "url": "https://mtssrl.ma",
-        "urlLabel": "mtssrl.ma"
+        "urlLabel": "mtssrl.ma",
+        "image": "/images/projects/mts.png",
+        "domain": "mtssrl.ma",
+        "visual": "storefront"
+      },
+      {
+        "name": "Training Track System",
+        "context": "TE Connectivity — Formations & conformité",
+        "description": "Suivi des formations et des certifications du personnel : échéances, habilitations et état de conformité visibles sur un tableau de bord unique.",
+        "tags": [
+          "ASP.NET Core",
+          "Angular",
+          "Clean Architecture",
+          "SQL Server"
+        ],
+        "visual": "compliance"
       },
       {
         "name": "Plateforme de maintenance prédictive",
         "context": "MTS — IA & IoT industriel",
         "description": "Les capteurs remontent l'état des machines en continu ; un modèle de Machine Learning signale la dérive avant la panne et déclenche l'alerte sur le dashboard.",
-        "tags": ["ESP32", "MQTT", "Python", "Scikit-learn", "React"]
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Python",
+          "Scikit-learn",
+          "React"
+        ],
+        "visual": "predictive"
       },
       {
         "name": "Application de pesée industrielle",
         "context": "SENSGRP — Desktop & automate",
         "description": "Poste de pesée relié à l'automate en Modbus TCP : lecture du poids en temps réel, enregistrement côté service web et impression du ticket.",
-        "tags": ["WPF", "C#", "Modbus TCP", "ASP.NET"]
+        "tags": [
+          "WPF",
+          "C#",
+          "Modbus TCP",
+          "ASP.NET"
+        ],
+        "visual": "weighing"
       }
     ]
   },
@@ -298,37 +239,72 @@
       {
         "title": "Développement d'applications sur mesure",
         "description": "Conception et développement d'applications web et desktop adaptées à vos processus métier réels, pas à un modèle générique.",
-        "tags": ["ASP.NET Core", "Spring Boot", "Next.js", "Angular"]
+        "tags": [
+          "ASP.NET Core",
+          "Spring Boot",
+          "Next.js",
+          "Angular"
+        ]
       },
       {
         "title": "Solutions IA & Machine Learning appliquées",
         "description": "Intégration de modèles d'IA là où ils font gagner du temps : automatisation, classification de documents, prédiction.",
-        "tags": ["Python", "Scikit-learn", "TensorFlow", "NLP"]
+        "tags": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "NLP"
+        ]
       },
       {
         "title": "Data Engineering & Business Intelligence",
         "description": "Des données dispersées rassemblées dans des pipelines fiables, puis restituées en tableaux de bord utiles à la décision.",
-        "tags": ["Apache Spark", "Kafka", "Airflow", "Power BI"]
+        "tags": [
+          "Apache Spark",
+          "Kafka",
+          "Airflow",
+          "Power BI"
+        ]
       },
       {
         "title": "IoT & Automatisation Industrielle",
         "description": "Connexion de vos équipements et supervision en temps réel, du capteur sur machine jusqu'à l'écran de l'atelier.",
-        "tags": ["ESP32", "MQTT", "Modbus TCP", "Node.js"]
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Modbus TCP",
+          "Node.js"
+        ]
       },
       {
         "title": "Maintenance Prédictive & Monitoring",
         "description": "Anticiper les pannes au lieu de les subir : détection de dérive, alertes en amont, réduction des arrêts de production.",
-        "tags": ["Machine Learning", "Python", "IoT", "Dashboards"]
+        "tags": [
+          "Machine Learning",
+          "Python",
+          "IoT",
+          "Dashboards"
+        ]
       },
       {
         "title": "Digitalisation des processus métier",
         "description": "Vos procédures papier ou Excel transformées en outils web centralisés, traçables et accessibles à toute l'équipe.",
-        "tags": ["Next.js", "REST API", "PostgreSQL", "SQL Server"]
+        "tags": [
+          "Next.js",
+          "REST API",
+          "PostgreSQL",
+          "SQL Server"
+        ]
       },
       {
         "title": "Architecture & Conseil technique",
         "description": "Audit de l'existant et conception d'architectures robustes et évolutives, avec un plan de migration réaliste.",
-        "tags": ["Clean Architecture", "Microservices", "Docker", "CI/CD"]
+        "tags": [
+          "Clean Architecture",
+          "Microservices",
+          "Docker",
+          "CI/CD"
+        ]
       }
     ],
     "ctaPanel": {
@@ -411,5 +387,54 @@
     "contactLabel": "Contact",
     "rights": "Tous droits réservés.",
     "backToTop": "Haut de page"
+  },
+  "clients": {
+    "eyebrow": "Clients",
+    "title": "Des entreprises qui font tourner des lignes de production",
+    "intro": "Trois structures industrielles et commerciales pour lesquelles j'ai conçu, développé et mis en production des systèmes réels.",
+    "items": [
+      {
+        "name": "MTS",
+        "logo": "/images/clients/mts.png",
+        "sector": "Machines spéciales et automatisation",
+        "location": "Tanger",
+        "period": "2024 – 2025",
+        "work": "Plateforme de maintenance prédictive : acquisition IoT des données machine, modèle de prédiction de pannes et supervision temps réel.",
+        "tags": [
+          "ESP32",
+          "MQTT",
+          "Python",
+          "React"
+        ]
+      },
+      {
+        "name": "SENSGRP",
+        "logo": "/images/clients/sensgrp.png",
+        "sector": "Énergie et instrumentation",
+        "location": "Kénitra",
+        "period": "2024 – 2025",
+        "work": "Poste de pesée industrielle : application desktop WPF reliée à l'automate en Modbus TCP, service web et impression des tickets.",
+        "tags": [
+          "WPF",
+          "C#",
+          "Modbus TCP",
+          "ASP.NET"
+        ]
+      },
+      {
+        "name": "ITALBOX",
+        "logo": "/images/clients/italbox-on-light.svg",
+        "sector": "Distribution d'outillage industriel",
+        "location": "Tanger",
+        "period": "2023 – 2025",
+        "work": "Site e-commerce complet en production : back-end Spring Boot, front Next.js, recherche Algolia et déploiement conteneurisé.",
+        "tags": [
+          "Spring Boot",
+          "Next.js",
+          "PostgreSQL",
+          "Algolia"
+        ]
+      }
+    ]
   }
 }

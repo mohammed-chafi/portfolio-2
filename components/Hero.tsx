@@ -1,14 +1,18 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowDown, CalendarDays } from "lucide-react";
-import { RangeRule } from "@/components/RangeRule";
 import { SplitWords } from "@/components/SplitWords";
 import { Button } from "@/components/ui/button";
 
 /*
- * The hero entrance is one orchestrated sequence — the strip sets the frame,
- * the headline lands word by word, then the supporting copy and the actions
- * follow — and it is built entirely in CSS. Nothing above the fold depends on
- * JavaScript to become visible.
+ * Two-column hero: the claim on the reading side, a portrait on the other.
+ *
+ * The layout follows the reference the client supplied, but the trust strip
+ * under the copy carries real, checkable signals — the engineering degree and
+ * the three client logos — rather than the star ratings and review scores the
+ * reference used, which would have to be invented here.
+ *
+ * Entirely CSS-animated: nothing above the fold waits on JavaScript.
  */
 export function Hero() {
   const t = useTranslations("hero");
@@ -17,15 +21,20 @@ export function Hero() {
     <section
       id="top"
       aria-labelledby="hero-headline"
-      className="relative flex min-h-[calc(100svh-var(--header-h))] flex-col justify-center pb-12 pt-14 lg:pb-16 lg:pt-20"
+      className="relative pb-12 pt-10 lg:pb-16 lg:pt-14"
     >
       <div className="container-page w-full">
-        {/* Identity strip — reads like the header block of a drawing sheet. */}
+        {/*
+          Identity strip — the header block of a drawing sheet, so it rules the
+          full width of the sheet rather than sitting inside one column. That is
+          also what gives it room to stay on a single line: inside the 7/12
+          column it had to wrap.
+        */}
         <div
-          className="flex animate-rise flex-col gap-2 border-b border-line pb-4 sm:flex-row sm:items-baseline sm:justify-between"
+          className="flex animate-rise flex-col gap-1.5 border-b border-line pb-4 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
           style={{ animationDelay: "80ms" }}
         >
-          <p className="label-caps text-ink">
+          <p className="label-caps whitespace-nowrap text-ink">
             {t("name")}
             <span aria-hidden className="mx-2 text-line">
               —
@@ -38,49 +47,71 @@ export function Hero() {
               aria-hidden
               className="block size-1.5 shrink-0 rounded-full bg-accent"
             />
-            {/* The full phrase does not fit a phone; the short form carries the same signal. */}
             <span className="whitespace-nowrap sm:hidden">
               {t("availabilityShort")}
             </span>
-            <span className="hidden sm:inline">{t("availability")}</span>
+            <span className="hidden whitespace-nowrap sm:inline">
+              {t("availability")}
+            </span>
           </p>
         </div>
 
-        <h1
-          id="hero-headline"
-          className="mt-8 max-w-full text-pretty text-display text-ink sm:max-w-[26ch] lg:mt-10 lg:max-w-[30ch]"
-        >
-          <SplitWords text={t("headline")} baseDelay={200} />
-        </h1>
+        <div className="mt-8 grid items-center gap-10 lg:mt-10 lg:grid-cols-12 lg:gap-12">
+          <div className="lg:col-span-7">
+            <h1
+              id="hero-headline"
+              className="max-w-full text-pretty text-display text-ink lg:max-w-[19ch]"
+            >
+              <SplitWords text={t("headline")} baseDelay={200} />
+            </h1>
 
-        <p
-          className="mt-6 max-w-measure animate-rise text-lead text-ink-2"
-          style={{ animationDelay: "480ms" }}
-        >
-          {t("subline")}
-        </p>
+            <p
+              className="mt-5 max-w-measure animate-rise text-lead text-ink-2"
+              style={{ animationDelay: "480ms" }}
+            >
+              {t("subline")}
+            </p>
 
-        <div
-          className="mt-8 flex animate-rise flex-col gap-3 sm:flex-row sm:items-center lg:mt-10"
-          style={{ animationDelay: "580ms" }}
-        >
-          <Button asChild size="lg">
-            <a href="#projects">
-              {t("ctaProjects")}
-              <ArrowDown className="transition-transform duration-fast group-hover/btn:translate-y-0.5" />
-            </a>
-          </Button>
-          <Button asChild variant="secondary" size="lg">
-            <a href="#contact">
-              <CalendarDays />
-              {t("ctaBook")}
-            </a>
-          </Button>
+            <div
+              className="mt-7 flex animate-rise flex-col gap-3 sm:flex-row sm:items-center"
+              style={{ animationDelay: "580ms" }}
+            >
+              <Button asChild size="lg">
+                <a href="#projects">
+                  {t("ctaProjects")}
+                  <ArrowDown />
+                </a>
+              </Button>
+              <Button asChild variant="secondary" size="lg">
+                <a href="#contact">
+                  <CalendarDays />
+                  {t("ctaBook")}
+                </a>
+              </Button>
+            </div>
+          </div>
+
+          <div
+            className="flex animate-rise justify-center lg:col-span-5"
+            style={{ animationDelay: "320ms" }}
+          >
+            {/*
+              Standing figure, cut out so it sits directly on the page rather
+              than in a panel. Sized by height, not width: at roughly 1:3 the
+              full-body crop would otherwise tower over the column.
+              TODO: replace with Mohammed's photograph once supplied.
+            */}
+            <Image
+              src="/images/hero-engineer.png"
+              alt={t("figureAlt")}
+              width={602}
+              height={1857}
+              priority
+              sizes="(min-width: 1024px) 220px, 180px"
+              className="h-[340px] w-auto sm:h-[420px] lg:h-[540px]"
+            />
+          </div>
         </div>
-      </div>
-
-      <div className="container-page mt-14 w-full lg:mt-20">
-        <RangeRule />
       </div>
     </section>
   );
