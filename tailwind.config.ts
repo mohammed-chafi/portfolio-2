@@ -65,11 +65,27 @@ const config: Config = {
           from: { transform: 'scaleX(0)' },
           to: { transform: 'scaleX(1)' },
         },
+        // Slow idle float for the hero figure. Long and shallow on purpose: at
+        // 6s and 10px it registers as presence, not as motion competing with
+        // the headline beside it.
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-16px)' },
+        },
+        // Ground shadow, in counterpoint: it tightens and darkens as the
+        // figure comes down, which is what sells the lift as weight rather
+        // than a sliding image.
+        'float-shadow': {
+          '0%, 100%': { transform: 'scaleX(1)', opacity: '0.16' },
+          '50%': { transform: 'scaleX(0.86)', opacity: '0.08' },
+        },
       },
       animation: {
         rise: 'rise 550ms cubic-bezier(0.16, 1, 0.3, 1) both',
         'word-up': 'word-up 550ms cubic-bezier(0.16, 1, 0.3, 1) both',
         'draw-x': 'draw-x 900ms cubic-bezier(0.16, 1, 0.3, 1) both',
+        float: 'float 5s ease-in-out infinite',
+        'float-shadow': 'float-shadow 5s ease-in-out infinite',
       },
       transitionDuration: {
         fast: '150ms',

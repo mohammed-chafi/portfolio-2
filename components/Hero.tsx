@@ -101,15 +101,23 @@ export function Hero() {
               full-body crop would otherwise tower over the column.
               TODO: replace with Mohammed's photograph once supplied.
             */}
-            <Image
-              src="/images/hero-engineer.png"
-              alt={t("figureAlt")}
-              width={602}
-              height={1857}
-              priority
-              sizes="(min-width: 1024px) 220px, 180px"
-              className="h-[340px] w-auto sm:h-[420px] lg:h-[540px]"
-            />
+            <div className="relative flex flex-col items-center">
+              <Image
+                src="/images/hero-engineer.png"
+                alt={t("figureAlt")}
+                width={602}
+                height={1857}
+                priority
+                sizes="(min-width: 1024px) 220px, 180px"
+                className="h-[340px] w-auto animate-float sm:h-[420px] lg:h-[540px]"
+              />
+              {/* Contact shadow. Without it the lift reads as the whole picture
+                  sliding; with it, the figure has weight. */}
+              <span
+                aria-hidden
+                className="mt-2 block h-2 w-24 animate-float-shadow rounded-[50%] bg-ink blur-[6px] sm:w-28 lg:w-32"
+              />
+            </div>
           </div>
         </div>
       </div>

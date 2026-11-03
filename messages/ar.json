@@ -226,7 +226,8 @@
           "Clean Architecture",
           "SQL Server"
         ],
-        "visual": "compliance"
+        "visual": "compliance",
+        "image": "/images/projects/te-connectivity.png"
       }
     ]
   },
